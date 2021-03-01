@@ -1,0 +1,104 @@
+.list.col {
+    width: 100%;
+    max-width: 275px;
+}
+
+.board-content .list-add .input-popup-container {
+    background: #e0e0e1;
+    border-radius: 4px;
+    width: 100%;
+    position: absolute;
+    top: -30px;
+}
+
+.board-content .list-add .input-popup-container .btn-add-list {
+    background: transparent;
+    border: 0;
+    color: #000;
+}
+
+.board-content .list-add .input-popup-container input {
+    margin-bottom: 10px;
+}
+
+.board-content .list-add .input-popup-container input,
+.board-content .list-add .input-popup-container .input-popup {
+    width: 100%;
+    padding: 2px;
+}
+
+.board-content .card {
+    position: relative;
+    background-color: #ebecf0;
+    border: 0;
+}
+
+.board-content .card-body {
+    max-height: 85vh;
+    height: 100%;
+    overflow-y: scroll;
+    padding: 0.875rem;
+}
+
+.board-content .card-body .card-title {
+    display: inline-block;
+}
+
+.board-content .card-body .input-popup-container {
+    display: inline-block;
+    width: 100%;
+}
+
+.board-content .card-body .dropdown {
+    position: absolute;
+    top: 12px;
+    right: 40px;
+}
+
+.board-content .card-body .dropdown button::after {
+    display: none;
+}
+
+.board-content .card-body .dropdown button.dropdown-toggle {
+    width: 15px;
+    height: 15px;
+    background: none;
+    border: 0;
+    color: #333;
+    line-height: 0;
+    padding-top: 0;
+    margin-top: -14px;
+    margin-right: -10px;
+    box-shadow: none !important;
+    font-size: 1.5rem;
+}
+
+.board-content .card-body .dropdown .dropdown-menu.show {
+    transform: translate3d(5px, 19px, 0px) !important;
+}
+
+.board-content .card-body .dropdown button:focus {
+    box-shadow: none;
+}
+
+.board-content .list .list-group {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.board-content .list .list-group-item {
+    margin-bottom: 10px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    box-shadow: 0 1px 0 rgb(9 30 66 / 25%);
+}
+
+.card-body .dropdown + div + div input {
+    margin-bottom: 5px;
+    padding: 20px 5px;
+}
+
+.card-body .input-popup input,
+.card-body .input-popup {
+    width: 100%;
+}

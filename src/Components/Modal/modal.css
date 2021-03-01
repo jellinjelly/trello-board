@@ -1,0 +1,108 @@
+/* Modal */
+.modal .h4,
+.modal h4 {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.modal .btn.btn-atc {
+    width: 100%;
+    background-color: #eaecf0;
+    border-radius: 4px;
+    text-align: left;
+    margin-bottom: 12px;
+}
+
+.modal .modal-content {
+    background-color: #f4f5f7;
+}
+
+.modal .modal-header {
+    padding-bottom: 0;
+    border: 0;
+}
+
+.modal .modal-header .modal-title svg{
+    margin-right: 24px
+}
+
+.modal .modal-list-title-container {
+    margin-top: 2px;
+    font-size: 0.75rem;
+    padding-left: 58px;
+}
+.modal .modal-list-title {
+    text-decoration: underline;
+}
+
+.modal .modal-body .input-popup-container {
+    background: #eee;
+    border-radius: 4px;
+    padding: 5px;
+    margin-bottom: 25px;
+}
+
+.modal .modal-body .input-popup-container:hover {
+    background: #ddd;
+}
+
+.modal .modal-body .input-popup-container p {
+    padding: 10px;
+    margin: 0;
+}
+
+.modal .modal-body .input-popup-field {
+    width: 100%;
+    height: 80px;
+    padding-top: 0;
+    line-height: 0;
+    border: none;
+    border-width: 0;
+    box-shadow: none;
+    appearance: 0;
+    outline: none;
+    -webkit-appearance: none;
+    margin-bottom: 5px;
+    border-radius: 4px;
+}
+
+.modal .modal-body .input-comment {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 5px 15px;
+}
+
+.modal .modal-body .comment-container p {
+    margin: 0;
+    padding: 0;
+}
+
+.modal .modal-body p.comment-user {
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.modal .modal-body p.comment-text {
+    background-color: #fff;
+    border: 1px solid #aaa;
+    display: inline-block;
+    padding: 5px 15px;
+}
+
+.modal .modal-body .comment-button-group .btn {
+    font-size: 0.75rem;
+    text-decoration: underline;
+    margin-left: -12px;
+}
+
+.modal .modal-body .modal-add-to-card {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.modal .fa-credit-card,
+.modal .fa-grip-lines,
+.modal .modal-body .avatar .fa-user-circle {
+    font-size: 1.8rem;
+}
