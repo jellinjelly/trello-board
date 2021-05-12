@@ -1,7 +1,7 @@
 # Created Trello board with the following features: 
 - Adding and deleting a card
-- Adding, editing (the name of), and deleting a list.
-- A “Show Menu” button that displays a sidebar when clicked.
+- Adding, editing, and deleting a list
+- A “Show Menu” button that displays a sidebar when clicked
 - A responsive design
 
 # Getting Started with Create React App
